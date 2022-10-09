@@ -67,7 +67,7 @@ btnRoll.addEventListener('click', function () {
     console.log(activePlayer);
     // 2. Display dice
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${randomNum}.png`;
+    diceEl.src = `dice-styles/dice-${randomNum}.png`;
 
     // 3. Check for rolled 1: if true, switch to next player
     if (randomNum !== 1) {
